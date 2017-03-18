@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron">
+    <h1>Price Alert</h1>
+    <p>Hello, Welcome to the Price Alerter website.</p>
+    <p> Start adding your dream items from your favorite stores and we will send you regular updates of the slashed prices!</p>
+    <p><a class="btn btn-primary btn-lg" href="{{url_for('users.register_user')}}" role="button">Sign up Now!</a></p>
+</div>
+{% endblock %}
