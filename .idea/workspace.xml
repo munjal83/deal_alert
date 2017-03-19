@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b046b3c-92ac-4eb2-aa3b-64725e9976ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime" afterPath="$PROJECT_DIR$/runtime" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/database.py" afterPath="$PROJECT_DIR$/src/common/database.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config.py" afterPath="$PROJECT_DIR$/src/config.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +18,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="database.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/database.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -27,6 +26,16 @@
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,7 +84,6 @@
         <option value="$PROJECT_DIR$/src/models/stores/store.py" />
         <option value="$PROJECT_DIR$/src/templates/alerts/edit_alert.html" />
         <option value="$PROJECT_DIR$/src/templates/alerts/alert.html" />
-        <option value="$PROJECT_DIR$/src/config.py" />
         <option value="$PROJECT_DIR$/src/templates/stores/store_index.html" />
         <option value="$PROJECT_DIR$/src/models/stores/views.py" />
         <option value="$PROJECT_DIR$/src/models/alerts/alert.py" />
@@ -90,12 +98,13 @@
         <option value="$PROJECT_DIR$/src/uwsgi.ini" />
         <option value="$PROJECT_DIR$/runtime" />
         <option value="$PROJECT_DIR$/src/common/database.py" />
+        <option value="$PROJECT_DIR$/src/config.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="56" />
+    <option name="x" value="363" />
+    <option name="y" value="110" />
     <option name="width" value="1260" />
     <option name="height" value="713" />
   </component>
@@ -406,7 +415,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="56" width="1260" height="713" extended-state="0" />
+    <frame x="363" y="110" width="1260" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -457,8 +466,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/models/stores/constants.py" />
-    <entry file="file://$PROJECT_DIR$/src/models/items/constants.py" />
     <entry file="file://$PROJECT_DIR$/src/models/stores/errors.py" />
     <entry file="file://$PROJECT_DIR$/src/templates/html_dependencies.html" />
     <entry file="file://$PROJECT_DIR$/src/static/css/style.css" />
@@ -513,7 +520,6 @@
     <entry file="file://$PROJECT_DIR$/src/templates/stores/new_store.html" />
     <entry file="file://$PROJECT_DIR$/src/templates/alerts/edit_alert.html" />
     <entry file="file://$PROJECT_DIR$/src/templates/alerts/new_alert.html" />
-    <entry file="file://$PROJECT_DIR$/src/config.py" />
     <entry file="file://$PROJECT_DIR$/src/templates/alerts/alert.html" />
     <entry file="file://$PROJECT_DIR$/src/templates/stores/store_index.html" />
     <entry file="file://$PROJECT_DIR$/src/models/stores/views.py" />
@@ -545,6 +551,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/database.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -552,6 +574,14 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
